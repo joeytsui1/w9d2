@@ -6,17 +6,14 @@ class View {
   }
 
   setupBoard() {
+    debugger
     let ul = document.createElement('ul')
-    let grid = []
     for (let i = 0; i < 3; i++) {
-      grid.push([]);
-      for (let j = 0; j < 3; j++) {
-        grid[i].push(null);
-        ul.innerText = grid[i][j]
-      }
-      this.el.appendChild(ul)
+      let li = document.createElement('li')
+      ul.appendChild(li)
     }
   
+    debugger;
 
   }
   
