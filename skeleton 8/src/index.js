@@ -8,7 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
   console.log(game)
 
   const el = document.querySelector(".ttt")
-  const view = new View(game, el)
+  console.log(el);
+  const view = new View(game, el);
 });
 
 window.Board = Board
